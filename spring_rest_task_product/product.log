@@ -1,0 +1,196 @@
+2022-11-18 09:28:04.440  INFO 8557 --- [main] .g.SpringRestTaskProductApplicationTests : Starting SpringRestTaskProductApplicationTests using Java 11.0.16.1 on BLR1-LHP-N84471 with PID 8557 (started by kiran in /home/kiran/Desktop/Spring/spring_rest_task_product)
+2022-11-18 09:28:04.445  INFO 8557 --- [main] .g.SpringRestTaskProductApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-11-18 09:28:04.980  INFO 8557 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 09:28:05.023  INFO 8557 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2022-11-18 09:28:05.800  INFO 8557 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 09:28:05.855  INFO 8557 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 09:28:05.890  INFO 8557 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 09:28:05.987  INFO 8557 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-18 09:28:06.154  INFO 8557 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-18 09:28:06.169  INFO 8557 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-18 09:28:06.546  INFO 8557 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 09:28:06.555  INFO 8557 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 09:28:06.818  WARN 8557 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 09:28:07.515  INFO 8557 --- [main] .g.SpringRestTaskProductApplicationTests : Started SpringRestTaskProductApplicationTests in 3.38 seconds (JVM running for 4.203)
+2022-11-18 09:28:07.573  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 09:28:07.575  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 09:28:07.576  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 09:28:07.577  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 09:28:07.600  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 13 to delete
+2022-11-18 09:28:07.600  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Deleted product with ID Product [id=13, name=Mobile, category=Electronics, price=14999.0]
+2022-11-18 09:28:07.606  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Adding product to database
+2022-11-18 09:28:07.606  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Saved Product to Database
+2022-11-18 09:28:07.610  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 11
+2022-11-18 09:28:07.611  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Retrieved product from database with ID 11
+2022-11-18 09:28:07.614  INFO 8557 --- [main] c.g.service.impl.ProductServiceImpl      : Retrived All Products from Database
+2022-11-18 09:28:07.686  INFO 8557 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 09:28:07.691  INFO 8557 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-18 09:28:07.704  INFO 8557 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-18 09:28:30.974  INFO 8831 --- [restartedMain] c.g.SpringRestTaskProductApplication     : Starting SpringRestTaskProductApplication using Java 11.0.16.1 on BLR1-LHP-N84471 with PID 8831 (/home/kiran/Desktop/Spring/spring_rest_task_product/target/classes started by kiran in /home/kiran/Desktop/Spring/spring_rest_task_product)
+2022-11-18 09:28:30.975  INFO 8831 --- [restartedMain] c.g.SpringRestTaskProductApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-18 09:28:31.004  INFO 8831 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-18 09:28:31.004  INFO 8831 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-18 09:28:31.343  INFO 8831 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 09:28:31.367  INFO 8831 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interfaces.
+2022-11-18 09:28:31.781  INFO 8831 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-18 09:28:31.792  INFO 8831 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-18 09:28:31.793  INFO 8831 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-18 09:28:31.844  INFO 8831 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-18 09:28:31.844  INFO 8831 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 840 ms
+2022-11-18 09:28:32.023  INFO 8831 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 09:28:32.059  INFO 8831 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 09:28:32.143  INFO 8831 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 09:28:32.193  INFO 8831 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-18 09:28:32.296  INFO 8831 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-18 09:28:32.306  INFO 8831 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-18 09:28:32.634  INFO 8831 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 09:28:32.643  INFO 8831 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 09:28:32.897  WARN 8831 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 09:28:33.099  INFO 8831 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-18 09:28:33.129  INFO 8831 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-18 09:28:33.136  INFO 8831 --- [restartedMain] c.g.SpringRestTaskProductApplication     : Started SpringRestTaskProductApplication in 2.416 seconds (JVM running for 2.953)
+2022-11-18 09:28:36.748  INFO 8831 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-11-18 09:28:36.764  INFO 8831 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-18 09:28:36.772  INFO 8831 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 09:28:36.775  INFO 8831 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-18 09:28:36.780  INFO 8831 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-18 09:59:17.426  INFO 13443 --- [main] .g.SpringRestTaskProductApplicationTests : Starting SpringRestTaskProductApplicationTests using Java 11.0.16.1 on BLR1-LHP-N84471 with PID 13443 (started by kiran in /home/kiran/Desktop/Spring/spring_rest_task_product)
+2022-11-18 09:59:17.428  INFO 13443 --- [main] .g.SpringRestTaskProductApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-11-18 09:59:17.845  INFO 13443 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 09:59:17.873  INFO 13443 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2022-11-18 09:59:18.456  INFO 13443 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 09:59:18.488  INFO 13443 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 09:59:18.513  INFO 13443 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 09:59:18.572  INFO 13443 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-18 09:59:18.697  INFO 13443 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-18 09:59:18.706  INFO 13443 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-18 09:59:18.968  INFO 13443 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 09:59:18.975  INFO 13443 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 09:59:19.144  WARN 13443 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 09:59:19.564  INFO 13443 --- [main] .g.SpringRestTaskProductApplicationTests : Started SpringRestTaskProductApplicationTests in 2.374 seconds (JVM running for 3.096)
+2022-11-18 09:59:19.597  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 09:59:19.600  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 09:59:19.600  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 09:59:19.600  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 09:59:19.612  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 13 to delete
+2022-11-18 09:59:19.612  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Deleted product with ID Product [id=13, name=Mobile, category=Electronics, price=14999.0]
+2022-11-18 09:59:19.616  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Adding product to database
+2022-11-18 09:59:19.616  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Saved Product to Database
+2022-11-18 09:59:19.620  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 11
+2022-11-18 09:59:19.620  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Retrieved product from database with ID 11
+2022-11-18 09:59:19.623  INFO 13443 --- [main] c.g.service.impl.ProductServiceImpl      : Retrived All Products from Database
+2022-11-18 09:59:19.632  INFO 13443 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 09:59:19.634  INFO 13443 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-18 09:59:19.641  INFO 13443 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-18 11:16:20.726  INFO 23513 --- [main] .g.SpringRestTaskProductApplicationTests : Starting SpringRestTaskProductApplicationTests using Java 11.0.16.1 on BLR1-LHP-N84471 with PID 23513 (started by kiran in /home/kiran/Desktop/Spring/spring_rest_task_product)
+2022-11-18 11:16:20.728  INFO 23513 --- [main] .g.SpringRestTaskProductApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-11-18 11:16:21.176  INFO 23513 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 11:16:21.222  INFO 23513 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+2022-11-18 11:16:22.099  INFO 23513 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 11:16:22.147  INFO 23513 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 11:16:22.185  INFO 23513 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 11:16:22.292  INFO 23513 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-18 11:16:22.499  INFO 23513 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-18 11:16:22.517  INFO 23513 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-18 11:16:22.856  INFO 23513 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 11:16:22.865  INFO 23513 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:16:23.123  WARN 23513 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 11:16:23.677  INFO 23513 --- [main] .g.SpringRestTaskProductApplicationTests : Started SpringRestTaskProductApplicationTests in 3.199 seconds (JVM running for 4.281)
+2022-11-18 11:16:23.725  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 11:16:23.731  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 11:16:23.732  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 11:16:23.732  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 11:16:23.751  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 13 to delete
+2022-11-18 11:16:23.752  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Deleted product with ID Product [id=13, name=Mobile, category=Electronics, price=14999.0]
+2022-11-18 11:16:23.758  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Adding product to database
+2022-11-18 11:16:23.758  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Saved Product to Database
+2022-11-18 11:17:21.641  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 11
+2022-11-18 11:17:21.641  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Retrieved product from database with ID 11
+2022-11-18 11:17:21.646  INFO 23513 --- [main] c.g.service.impl.ProductServiceImpl      : Retrived All Products from Database
+2022-11-18 11:17:21.655  INFO 23513 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:17:21.658  INFO 23513 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-18 11:17:21.668  INFO 23513 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-18 11:38:28.336  INFO 25675 --- [main] .g.SpringRestTaskProductApplicationTests : Starting SpringRestTaskProductApplicationTests using Java 11.0.16.1 on BLR1-LHP-N84471 with PID 25675 (started by kiran in /home/kiran/Desktop/Spring/spring_rest_task_product)
+2022-11-18 11:38:28.338  INFO 25675 --- [main] .g.SpringRestTaskProductApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-11-18 11:38:28.804  INFO 25675 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 11:38:28.836  INFO 25675 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2022-11-18 11:38:29.523  INFO 25675 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 11:38:29.563  INFO 25675 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 11:38:29.599  INFO 25675 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 11:38:29.691  INFO 25675 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-18 11:38:29.882  INFO 25675 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-18 11:38:29.897  INFO 25675 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-18 11:38:30.254  INFO 25675 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 11:38:30.260  INFO 25675 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:38:30.498  WARN 25675 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 11:38:31.045  INFO 25675 --- [main] .g.SpringRestTaskProductApplicationTests : Started SpringRestTaskProductApplicationTests in 2.976 seconds (JVM running for 3.773)
+2022-11-18 11:38:31.095  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 11:38:31.100  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 11:38:31.101  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 11:38:31.101  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 11:38:31.119  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 13 to delete
+2022-11-18 11:38:31.120  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Deleted product with ID Product [id=13, name=Mobile, category=Electronics, price=14999.0]
+2022-11-18 11:38:31.126  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Adding product to database
+2022-11-18 11:38:31.126  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Saved Product to Database
+2022-11-18 11:38:31.132  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 11
+2022-11-18 11:38:31.132  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Retrieved product from database with ID 11
+2022-11-18 11:38:31.138  INFO 25675 --- [main] c.g.service.impl.ProductServiceImpl      : Retrived All Products from Database
+2022-11-18 11:38:31.149  INFO 25675 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:38:31.151  INFO 25675 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-18 11:38:31.161  INFO 25675 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-18 11:43:43.662  INFO 26362 --- [main] .g.SpringRestTaskProductApplicationTests : Starting SpringRestTaskProductApplicationTests using Java 11.0.16.1 on BLR1-LHP-N84471 with PID 26362 (started by kiran in /home/kiran/Desktop/Spring/spring_rest_task_product)
+2022-11-18 11:43:43.664  INFO 26362 --- [main] .g.SpringRestTaskProductApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-11-18 11:43:44.234  INFO 26362 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 11:43:44.283  INFO 26362 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interfaces.
+2022-11-18 11:43:44.990  INFO 26362 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 11:43:45.031  INFO 26362 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 11:43:45.067  INFO 26362 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 11:43:45.140  INFO 26362 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-18 11:43:45.313  INFO 26362 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-18 11:43:45.327  INFO 26362 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-18 11:43:45.683  INFO 26362 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 11:43:45.689  INFO 26362 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:43:45.936  WARN 26362 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 11:43:46.528  INFO 26362 --- [main] .g.SpringRestTaskProductApplicationTests : Started SpringRestTaskProductApplicationTests in 3.167 seconds (JVM running for 3.992)
+2022-11-18 11:43:46.584  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 11:43:46.587  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 11:43:46.587  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 11:43:46.588  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 11:43:46.606  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 13 to delete
+2022-11-18 11:43:46.606  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Deleted product with ID Product [id=13, name=Mobile, category=Electronics, price=14999.0]
+2022-11-18 11:43:46.612  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Adding product to database
+2022-11-18 11:43:46.612  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Saved Product to Database
+2022-11-18 11:43:46.617  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 11
+2022-11-18 11:43:46.618  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Retrieved product from database with ID 11
+2022-11-18 11:43:46.622  INFO 26362 --- [main] c.g.service.impl.ProductServiceImpl      : Retrived All Products from Database
+2022-11-18 11:43:46.649  INFO 26362 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:43:46.652  INFO 26362 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-18 11:43:46.669  INFO 26362 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-18 11:45:19.938  INFO 26527 --- [main] .g.SpringRestTaskProductApplicationTests : Starting SpringRestTaskProductApplicationTests using Java 11.0.16.1 on BLR1-LHP-N84471 with PID 26527 (started by kiran in /home/kiran/Desktop/Spring/spring_rest_task_product)
+2022-11-18 11:45:19.939  INFO 26527 --- [main] .g.SpringRestTaskProductApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-11-18 11:45:20.434  INFO 26527 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-18 11:45:20.474  INFO 26527 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-11-18 11:45:21.317  INFO 26527 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-18 11:45:21.355  INFO 26527 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-18 11:45:21.389  INFO 26527 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-18 11:45:21.474  INFO 26527 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-18 11:45:21.626  INFO 26527 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-18 11:45:21.638  INFO 26527 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-18 11:45:21.973  INFO 26527 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-18 11:45:21.980  INFO 26527 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:45:22.193  WARN 26527 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-18 11:45:22.782  INFO 26527 --- [main] .g.SpringRestTaskProductApplicationTests : Started SpringRestTaskProductApplicationTests in 3.151 seconds (JVM running for 3.95)
+2022-11-18 11:45:22.827  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 11:45:22.830  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 11:45:22.831  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 14 to update
+2022-11-18 11:45:22.831  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Updated product with ID 14
+2022-11-18 11:45:22.847  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 13 to delete
+2022-11-18 11:45:22.848  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Deleted product with ID Product [id=13, name=Mobile, category=Electronics, price=14999.0]
+2022-11-18 11:45:22.853  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Adding product to database
+2022-11-18 11:45:22.853  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Saved Product to Database
+2022-11-18 11:45:22.858  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Getting product with ID 11
+2022-11-18 11:45:22.859  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Retrieved product from database with ID 11
+2022-11-18 11:45:22.865  INFO 26527 --- [main] c.g.service.impl.ProductServiceImpl      : Retrived All Products from Database
+2022-11-18 11:45:22.874  INFO 26527 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-18 11:45:22.876  INFO 26527 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-18 11:45:22.886  INFO 26527 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
